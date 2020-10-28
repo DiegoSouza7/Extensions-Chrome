@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "darck theme Myanimelist",
+  "version": "0.1",
+  "description": "Muda cor de fundo do Myanimelist",
+  "content_scripts": [
+    {
+      "matches": ["https://myanimelist.net/*"],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}

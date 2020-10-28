@@ -1,0 +1,3 @@
+body.page-common:not(.ownlist_style_theme) {
+  background-color: rgb(118, 216, 211) !important;
+}
