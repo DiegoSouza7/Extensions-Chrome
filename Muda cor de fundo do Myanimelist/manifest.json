@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "darck theme Myanimelist",
+  "name": "Change background color Myanimelist",
   "version": "0.1",
   "description": "Muda cor de fundo do Myanimelist",
   "content_scripts": [
