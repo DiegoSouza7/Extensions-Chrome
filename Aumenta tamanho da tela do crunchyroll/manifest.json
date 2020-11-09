@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Increases video screen of Crunchyroll",
+  "version": "0.1",
+  "description": "Aumenta a tela do vídeo do Crunchyroll",
+  "content_scripts": [
+    {
+      "matches": ["https://www.crunchyroll.com/*"],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
