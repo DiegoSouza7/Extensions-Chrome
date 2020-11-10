@@ -1,15 +1,12 @@
-#sidebar {
-  margin-top: 553px;
-}
-
-#showmedia_video {
+#showmedia_video,
+#showmedia_video_box,
+#showmedia_video_box_wide {
   width: 960px;
   height: 540px;
 }
 
-#showmedia_video_box {
-  width: 960px;
-  height: 540px;
+.game-banner-wrapper {
+  display: none;
 }
 
 @media(min-width: 1170px) {
@@ -17,13 +14,13 @@
     position: absolute;
     width: 1056px;
     height: 594px;
-    left: -48px;
+    left: -35px;
   }
   
-  #showmedia_video_box {
+  #showmedia_video_box,
+  #showmedia_video_box_wide {
     width: 1056px;
     height: 594px;
-    left: -48px;
   }
   
   #sidebar {
@@ -43,10 +40,10 @@
     left: -144px;
   }
   
-  #showmedia_video_box {
+  #showmedia_video_box,
+  #showmedia_video_box_wide {
     width: 1248px;
     height: 702px;
-    left: -144px;
   }
   
   #sidebar {
@@ -66,10 +63,10 @@
     left: -268.8px;
   }
   
-  #showmedia_video_box {
+  #showmedia_video_box,
+  #showmedia_video_box_wide {
     width: 1497.6px;
     height: 842.4px;
-    left: -268.8px;
   }
   
   #sidebar {
@@ -89,10 +86,10 @@
     left: -393.6px;
   }
   
-  #showmedia_video_box {
+  #showmedia_video_box,
+  #showmedia_video_box_wide {
     width: 1746px;
     height: 982.8px;
-    left: -393.6px;
   }
   
   #sidebar {
